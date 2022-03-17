@@ -1,3 +1,21 @@
+# Laravel Crud-clientes
+
+Este proyecto fue creado con PHP versión 7.4.28, con Laravel Framework versión 8.75 y motor de base de datos MySQL 5.7.24
+
+## Como usar
+- Clonar el repositorio con  __git clone__ `https://github.com/dmanuelm23/crud-clientes.git`
+- Copiar el archivo __.env.example__ a __.env__ y modifica las credenciales de tu base de datos mysql
+- Correr en consola __composer install__
+- Correr __php artisan key:generate__
+- Correr __php artisan migrate:fresh --seed__
+- Correr __php artisan serve__
+- Copia la ruta principal generada por __php artisan serve__ en tu navegador 
+- Ejemplos: 
+- `http://127.0.0.1:8000/`
+- 
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
